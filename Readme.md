@@ -49,7 +49,7 @@ Node.js (Middleware) + Golang/Python (Cerebro): Una separación adecuada donde N
 Persistencia Políglota: El uso combinado de AWS S3 (documentos), MongoDB (datos transaccionales), Qdrant (vectores) y Neo4j (grafos) demuestra un diseño maduro donde se usa "la herramienta correcta para cada trabajo".
 
 🧠 Inteligencia Artificial (El Cerebro Legislativo)
-Aquí reside la mayor innovación de Aerus. Al alejarse del RAG tradicional y evolucionar hacia una arquitectura CAG (Context/Cache Augmented Generation) con GraphRAG (Neo4j), el sistema logra algo crítico:
+Aquí reside la mayor innovación de Aerus. Al alejarse del RAG tradicional y evolucionar hacia una arquitectura CAG (Cognitive Augmented Generation - Concepto Q3 2025) con GraphRAG (Neo4j), el sistema logra algo crítico:
 
 Comprensión Relacional: No solo busca texto (vectores), entiende la relación entre una normativa y un documento específico (grafo).
 
