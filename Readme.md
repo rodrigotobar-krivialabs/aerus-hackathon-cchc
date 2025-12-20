@@ -75,5 +75,10 @@ Estado de Proyecto: Desarrollo 100% Prototipo funcional , 80% api desarrolladas,
 
 -------
 
-
+EQUIPO KRIVIA : 
+- Lider Proyecto - Arquitecto Soluciones IA / Mobile (Rodrigo Tobar)
+- Arquitecto IA     (Arturo Linares)
+- Arquitecto Blockchain - (Jerman Espindola)
+- Prevencionista de Riesgo - (Alex Pereira)
+- Datascience - Negocio - (Percy Salcedo)
 
