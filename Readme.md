@@ -53,9 +53,9 @@ Aquí reside la mayor innovación de Aerus. Al alejarse del RAG tradicional y ev
 
 Comprensión Relacional: No solo busca texto (vectores), entiende la relación entre una normativa y un documento específico (grafo).
 
-Especialización: Entrenado con el Decreto 44 y normativa vigente, la IA no "alucina", sino que actúa como un asistente legal experto.
+Especialización: Entrenado con el Decreto 44 y normativa vigente, además de guias de elaboración de documentos y plantillas por defecto como IRL , MIPER o ART. la IA no "alucina", sino que actúa como un asistente prevencionista y legal experto.
 
-Optimización: El uso de chunks asíncronos asegura que la generación de documentos complejos no congele la experiencia del usuario.
+Optimización: El uso de chunks asíncronos asegura que la generación de documentos complejos no congele la experiencia del usuario y acelera la carga de documentos versionados.
 
 ⛓️ Web3 y Trazabilidad (Confianza)
 Solidity + Hardhat (Ethereum Emulado): Implementar lógica de contratos inteligentes para la trazabilidad documental es un acierto para auditorías inmutables.
