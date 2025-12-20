@@ -6,7 +6,9 @@
 
   https://we.tl/t-2Vvztsj9h3  (Codigo Fuente)
   https://drive.google.com/file/d/1tQsBB1xuuEGxpKJsYvg0-buJQbUt4wNE/view?pli=1    (Video Pitch)
+  https://github.com/rodrigotobar-krivialabs/aerus-hackathon-cchc/blob/becc087f55fb6a606f9ebc5fa602dbe23563852f/Presentacio%CC%81n_Aerus_Grupo_Krivia%20(1).pptx   (Presentacion)
 
+  
 Plataforma Integral de Gestión de Obras con Inteligencia Artificial Contextual y Trazabilidad Blockchain.
 
 1. Visión General
