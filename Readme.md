@@ -11,56 +11,75 @@
 
 
 
-  Plataforma Integral de Gestión de Obras con Inteligencia Artificial Contextual y Trazabilidad Blockchain.
+Aerus: Ecosistema de Gobernanza Técnica y Legal para la Construcción 4.0
+  
+Visión General
+Aerus redefine el estándar de la industria: no es solo un software de gestión documental, es un Ecosistema de Gobernanza Técnica y Legal. Su propuesta de valor única radica en la orquestación profunda de tres paradigmas tecnológicos: Arquitectura Cloud Nativa, Web3 (Blockchain) e IA Generativa Contextual (CAG/GraphRAG).
 
-Visión General Aerus se presenta no solo como un software de gestión documental, sino como un ecosistema de gobernanza técnica y legal para la industria de la construcción. Su propuesta de valor radica en la integración de tres mundos tecnológicos que raramente conviven con tanta profundidad: Arquitectura Cloud Nativa, Web3 (Blockchain) y IA Generativa Avanzada (CAG/GraphRAG).
-El sistema resuelve el dolor histórico de la construcción: la desconexión entre el cumplimiento normativo (Decreto 44, leyes laborales) y la realidad operativa en terreno.
+El sistema ataca la raíz del dolor histórico en la construcción: la desconexión crítica entre el cumplimiento normativo estricto (Decreto 44, Leyes Laborales) y la velocidad de la realidad operativa en terreno. Aerus cierra esa brecha, transformando la burocracia en activos digitales inteligentes.
 
-Experiencia de Usuario y Flujo de Valor El sistema divide inteligentemente las responsabilidades en tres aplicativos interconectados, asegurando que cada rol tenga herramientas específicas sin ruido visual:
-🏛️ La Torre de Control (Mandante/Constructora) Rol: Gobernanza y Fiscalización.
+Experiencia de Usuario y Flujo de Valor
+La plataforma segmenta inteligentemente las responsabilidades en tres aplicativos interconectados, eliminando el ruido visual y entregando herramientas de precisión para cada rol estratégico:
 
-Valor: Transforma al mandante de un mero espectador a un auditor activo. La capacidad de definir reglas documentales y visualizar el "Semáforo de Cumplimiento" de los contratistas en tiempo real elimina los cuellos de botella administrativos antes de que afecten la obra.
+1. 🏛️ La Torre de Control (Mandante / Constructora)
+Rol: Gobernanza, Auditoría y Fiscalización.
 
-Diferenciador: No firma por otros, hace cumplir. Esto reduce la responsabilidad legal subsidiaria al garantizar que cada contratista está "al día" antes de operar.
+Valor Estratégico: Transforma al mandante de un espectador pasivo a un auditor activo en tiempo real. A través de un "Dashboard de Cumplimiento Semafórico", permite visualizar el estado legal de cada contratista al instante.
 
-🏗️ El Motor Operativo (Contratista) Rol: Ejecución y Gestión.
+El Diferenciador: Mitigación de Riesgo Subsidiario. El sistema no firma por otros, hace cumplir. Bloquea proactivamente los cuellos de botella administrativos y garantiza que ningún contratista opere sin estar "en verde", blindando legalmente a la empresa principal.
 
-Valor: Reduce la carga burocrática mediante automatización. La integración de IA para la generación de documentos y la asignación masiva de trabajadores agiliza el onboarding en obra.
+2. 🏗️ El Motor Operativo (Contratista)
+Rol: Ejecución, Gestión y Onboarding.
 
-Diferenciador: La "Carpeta Documental" deja de ser física y se convierte en un activo digital vivo, que se cierra automáticamente para auditoría solo cuando todo está validado.
+Valor Estratégico: Automatización radical. La IA integrada no solo almacena, sino que genera documentación técnica y gestiona la asignación masiva de trabajadores, acelerando drásticamente el proceso de acreditación (onboarding) en obra.
 
-👷‍♂️ La Realidad en Terreno (Trabajador / Prevencionista) Rol: Validación y Firma.
+El Diferenciador: La "Carpeta Documental" evoluciona de un archivo estático a un Activo Digital Vivo. El sistema impide el cierre de carpetas incompletas, asegurando que solo se envíe a auditoría lo que la IA ya ha pre-validado.
 
-Valor: Democratiza la tecnología en terreno. El uso de Códigos QR para asistencia y firmas convierte procesos complejos en acciones de segundos.
+3. 👷‍♂️ La Realidad en Terreno (Trabajador / Prevencionista)
+Rol: Validación, Identidad y Firma.
 
-Diferenciador: La validación de identidad y firma digital (con respaldo blockchain) otorga a cada trabajador una identidad soberana dentro del proyecto. El Prevencionista actúa como la compuerta final de seguridad, emitiendo el "Acta de Conformidad".
+Valor Estratégico: Democratización tecnológica. Mediante el uso de Códigos QR para asistencia y firma electrónica, convierte procesos complejos en acciones de segundos, sin fricción para el operario.
 
-Análisis de Arquitectura y Stack Tecnológico La arquitectura de Aerus es vanguardista y resiliente, diseñada para escalar horizontalmente y manejar datos complejos.
-☁️ Infraestructura y Backend (Robustez) Kubernetes (K8s) + Cloud Run: Garantiza alta disponibilidad y auto-escalado según la carga de usuarios.
+El Diferenciador: Identidad Soberana. Cada trabajador posee una identidad digital validada y respaldada por Blockchain. El Prevencionista actúa como la compuerta final de seguridad ("Human-in-the-loop"), emitiendo el "Acta de Conformidad" sobre datos irrefutables.
 
-Node.js (Middleware) + Golang/Python (Cerebro): Una separación adecuada donde Node maneja la concurrencia de la red y Python/Go procesan la lógica pesada de IA y datos.
+Análisis de Arquitectura y Stack Tecnológico
+Aerus se construye sobre una ingeniería "State-of-the-Art", diseñada para la resiliencia, la escalabilidad horizontal y la integridad de datos complejos.
 
-Persistencia Políglota: El uso combinado de AWS S3 (documentos), MongoDB (datos transaccionales), Qdrant (vectores) y Neo4j (grafos) demuestra un diseño maduro donde se usa "la herramienta correcta para cada trabajo".
+☁️ Infraestructura y Backend (Robustez Industrial)
+Kubernetes (K8s) + Cloud Run: Arquitectura serverless que garantiza alta disponibilidad y auto-escalado inmediato ante picos de carga de usuarios.
 
-🧠 Inteligencia Artificial (El Cerebro Legislativo) Aquí reside la mayor innovación de Aerus. Al alejarse del RAG tradicional y evolucionar hacia una arquitectura CAG (Cognitive Augmented Generation - Concepto Q3 2025) con GraphRAG (Neo4j), el sistema logra algo crítico:
+Middleware Inteligente: Separación estratégica donde Node.js gestiona la concurrencia de red de alta velocidad, mientras Golang/Python procesan la lógica pesada de IA y computación de datos.
 
-Comprensión Relacional: No solo busca texto (vectores), entiende la relación entre una normativa y un documento específico (grafo).
+Persistencia Políglota: Diseño maduro que utiliza la herramienta exacta para cada tipo de dato: AWS S3 (Documentos), MongoDB (Transaccional), Qdrant (Vectores) y Neo4j (Grafos de Conocimiento).
 
-Especialización: Entrenado con el Decreto 44 y normativa vigente, además de guias de elaboración de documentos y plantillas por defecto como IRL , MIPER o ART. la IA no "alucina", sino que actúa como un asistente prevencionista y legal experto.
+🧠 Inteligencia Artificial: El "Cerebro Legislativo" (CAG)
+Aquí reside la mayor ventaja competitiva de Aerus. Abandonamos el RAG tradicional para implementar una arquitectura CAG (Cognitive Augmented Generation) potenciada por GraphRAG (Neo4j).
 
-Optimización: El uso de chunks asíncronos asegura que la generación de documentos complejos no congele la experiencia del usuario y acelera la carga de documentos versionados.
+Comprensión Relacional Profunda: La IA no solo busca coincidencias de texto (vectores); entiende la relación semántica y legal entre una normativa y un documento específico (grafo).
 
-⛓️ Web3 y Trazabilidad (Confianza) Solidity + Hardhat (Ethereum Emulado): Implementar lógica de contratos inteligentes para la trazabilidad documental es un acierto para auditorías inmutables.
+Especialización Normativa: El modelo no "alucina". Ha sido entrenado específicamente con los Decretos 44, 33 y 18, además de guías técnicas (IRL, MIPER, ART). Actúa como un Prevencionista Senior Digital que asiste en la redacción y revisión.
 
-Nota: El uso de Hardhat sugiere un entorno controlado de alto rendimiento. Esto asegura que la "verdad" de la obra no pueda ser alterada retroactivamente.
+Optimización Asíncrona: Generación de documentos complejos mediante chunks asíncronos, asegurando que la experiencia de usuario sea fluida y nunca se congele.
 
-Aerus es un sistema "State-of-the-Art" que supera a los gestores documentales tradicionales de la construcción. No se limita a almacenar PDFs; entiende el contenido de los documentos gracias a su arquitectura de Grafos + Vectores y asegura la validez de los mismos mediante Blockchain.
+⛓️ Web3 y Trazabilidad (Confianza Inmutable)
+Solidity + Hardhat: Implementación de lógica de Contratos Inteligentes (Smart Contracts) en un entorno controlado de alto rendimiento.
 
-Es una herramienta que no solo digitaliza la obra, sino que blindan legal y operacionalmente a la empresa constructora y a sus contratistas.
+Auditoría Forense: Asegura que la "verdad" de la obra (asistencias, firmas, entregas de EPP) sea inalterable retroactivamente, protegiendo a la empresa ante litigios.
 
-Estado Inicial: Wireframe y planificación con apoyo de integrante (Prevencionista Riesgo)
+Estado del Proyecto
+Aerus es una realidad tecnológica en fase avanzada de validación técnica y operativa.
 
-Estado de Proyecto: Desarrollo 100% Prototipo funcional , 80% api desarrolladas, Arquitectura IA CAG (Cognite Augmentative Generation - Completa y 4 Documentos cargados de decreto 44, 33,18)
+Estado Actual: Prototipo Funcional 100% Operativo.
+
+Desarrollo Backend: 80% de las APIs desarrolladas e integradas.
+
+Madurez de IA: Arquitectura CAG (Cognitive Augmented Generation) completa e implementada.
+
+Base de Conocimiento: Entrenada y validada con 4 documentos críticos normativos (Decretos 44, 33, 18), demostrando capacidad de razonamiento legal en tiempo real.
+
+Origen: Planificación y Wireframing validados por expertos en Prevención de Riesgos.
+
+Aerus no solo digitaliza la obra; la blinda operacional y legalmente.
 
 
 -------
